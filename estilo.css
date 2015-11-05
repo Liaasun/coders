@@ -1,0 +1,61 @@
+body{
+	background-image: url("http://k31.kn3.net/7286D7B36.jpg");
+}
+
+.contenedor{
+	width: 600px;
+	height: 450px;
+	border: 3px solid #FA5882;
+	position: relative;
+	margin: auto;
+	padding-left: 10px;
+	padding-bottom: 35px;
+	padding-right: 10px;
+    padding-top: 10px;
+    top:5px;
+    background-image:url("http://res1.windows.microsoft.com/resbox/en/Windows%207/main/e7e3783d-eb89-4529-8d2e-7e62acc24d22_9.jpg");
+    display: table; 
+    border-radius: 10px;
+}
+
+.cuadro{
+	position: relative;
+	float: left;
+	margin: 8px;
+	clear: none;
+	padding-right: 50px;
+	padding-left: 5px;
+}
+   
+h1{
+	text-align: center;
+    color:black;
+    font-style: italic;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+h3{
+	font-family:Arial;
+	font-size: 15px;
+	text-align: center;
+	font-style: italic;
+	text-transform: capitalize;	  
+}
+
+.cuadro img{
+	width: 120px;
+	height: 140px;
+	float: left;
+	border:solid #FA5882; 
+	border-radius: 15px; 
+	-webkit-transition: all 1s ease;
+}
+
+h3:hover{
+	color: #7401DF;
+}
+
+img:hover{
+    -webkit-transform: rotate(365deg);
+}
